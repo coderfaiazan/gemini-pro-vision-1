@@ -1,0 +1,19 @@
+{
+  "name": "gemini-pro-vision",
+  "version": "1.0.0",
+  "description": "it can take photos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "cloudinary": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "pdf2json": "^3.0.5",
+    "tesseract.js": "^5.0.5"
+  }
+}
